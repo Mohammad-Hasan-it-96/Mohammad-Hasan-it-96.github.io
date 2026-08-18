@@ -13,6 +13,7 @@ assets/js/data.js          ALL content, in English and Arabic. Edit this to upda
 assets/js/main.js          renders every section from data.js; language toggle, filters, modal
 assets/files/              CV and portfolio PDFs offered for download
 images/                    profile photo + project screenshots (optional — see images/README.md)
+tools/                     regenerates the portfolio PDF from data.js + images
 ```
 
 ## Editing content
@@ -30,6 +31,18 @@ Adding a project means appending one object to `PROJECTS` — no HTML changes ne
 
 Drop files into `images/` using the exact filenames listed in `images/README.md`.
 Anything missing falls back to a gradient placeholder, so the site never looks broken.
+
+## Rebuilding the portfolio PDF
+
+`assets/files/Mohamad-Hasan-Portfolio.pdf` is generated, not hand-made — it reads the
+same `data.js` and the same screenshots as the site, so the two can't drift apart:
+
+```bash
+python tools/build-portfolio-pdf.py
+```
+
+Needs node (to read `data.js`), Chrome (to print) and Pillow. The webfonts are inlined
+from `tools/fonts.css`; run `python tools/fetch-fonts.py` once to regenerate that file.
 
 ## Local preview
 
