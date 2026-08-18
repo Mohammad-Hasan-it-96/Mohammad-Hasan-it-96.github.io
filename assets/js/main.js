@@ -67,6 +67,8 @@
              '<div class="ph">' + esc(initial) + '</div>' +
              '<img alt="" loading="lazy" src="images/projects/' + id + '.jpg" ' +
                   'data-fallback="images/projects/' + id + '.png" ' +
+                  // the .ph letter is positioned, so it sits over the screenshot — drop it once one loads
+                  'onload="var p=this.parentNode.querySelector(\'.ph\'); if(p) p.remove();" ' +
                   'onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback=\'\';}else{' + give + ';}">' +
            '</div>';
   }
@@ -140,6 +142,8 @@
             '<div class="photo-fallback"><div><div class="initials">MH</div></div></div>' +
             '<img alt="' + esc(t.photoAlt) + '" src="images/profile.jpg" ' +
                  'data-fallback="images/profile.png" ' +
+                 // the MH placeholder is positioned, so it paints over the photo — drop it once one loads
+                 'onload="var f=this.parentNode.querySelector(\'.photo-fallback\'); if(f) f.remove();" ' +
                  'onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;this.dataset.fallback=\'\';}else{this.remove();}">' +
           '</div>' +
           '<div class="hero-meta">' +
