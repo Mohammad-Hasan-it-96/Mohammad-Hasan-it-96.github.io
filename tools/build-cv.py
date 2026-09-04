@@ -46,12 +46,18 @@ CV[("engineer", "en")] = {
         "authorization, queues and caching — with React, Next.js and TypeScript on the front. I have taken four "
         "platforms and five mobile apps from first requirement to production support, including a multi-vendor "
         "marketplace and a licensing and billing control plane built as a 14-module modular monolith. "
+        "I work in two full-stack tracks: Laravel with React, in production today, and full-stack TypeScript "
+        "with NestJS, which I am building out now on the same architecture. "
         "Computer Systems Engineer, graduated with honours. Arabic-first (RTL) by default.",
     "stack": [
-        ("Backend", "PHP 8.4, Laravel 12, REST API design, Domain-Driven Design, modular monolith, service layer, "
+        ("Backend — Laravel", "PHP 8.4, Laravel 12, REST API design, Domain-Driven Design, modular monolith, service layer, "
                     "policies & RBAC, Sanctum / Passport, queues & scheduled jobs, Octane & Horizon, WebSockets, RabbitMQ"),
-        ("Frontend", "TypeScript, React 18/19, Next.js 16, TanStack Query, Tailwind v4, shadcn/ui, next-intl (RTL), "
-                     "Blade, JavaScript, HTML5, CSS3"),
+        ("Frontend — React & TypeScript", "TypeScript, React 18/19, Next.js 16, TanStack Query, Tailwind v4, "
+                     "shadcn/ui, next-intl (RTL), Blade, JavaScript, HTML5, CSS3"),
+        ("Full-stack JS (in progress)", "NestJS, Node.js, modules & dependency injection, DTOs & validation "
+                     "pipes, guards & interceptors, TypeORM / Prisma, Jest — the same layered architecture, DTO "
+                     "boundaries and role-based access I already run in Laravel, moved to the Node side. The React "
+                     "and TypeScript front end is already in production."),
         ("Data & infrastructure", "MySQL, SQLite, Redis, Elasticsearch, schema design, query optimisation, "
                                   "Nginx, Apache, Linux, PM2, AWS S3, Cloudinary, Git"),
         ("Practices", "Layered architecture, DTO boundaries, domain events, API versioning, append-only migrations, "
@@ -211,13 +217,19 @@ CV[("engineer", "ar")] = {
         "Laravel و PHP 8 في الخلفية — طبقات خدمات مبنية على حدود النطاق، وواجهات REST مُصدَّرة بإصدارات، "
         "وتفويض عبر Policies، وطوابير وتخزين مؤقّت — مع React و Next.js و TypeScript في الواجهة. "
         "أخذتُ أربع منصّات وخمسة تطبيقات موبايل من أول متطلَّب حتى دعم الإنتاج، منها سوق متعدّد البائعين "
-        "ومنصّة ترخيص وفوترة مبنية كمونوليث معياري من 14 وحدة. مهندس نظم حاسوبية بمرتبة الشرف، "
+        "ومنصّة ترخيص وفوترة مبنية كمونوليث معياري من 14 وحدة. "
+        "أعمل ضمن مساري Full-Stack: مسار Laravel مع React وهو قيد الإنتاج اليوم، ومسار TypeScript الكامل مع NestJS وأبنيه حالياً على نفس البنية. "
+        "مهندس نظم حاسوبية بمرتبة الشرف، "
         "وأبني بالعربية أولاً (RTL) افتراضياً.",
     "stack": [
-        ("الخلفية (Backend)", "PHP 8.4، Laravel 12، تصميم REST API، Domain-Driven Design، مونوليث معياري، "
+        ("الخلفية — Laravel", "PHP 8.4، Laravel 12، تصميم REST API، Domain-Driven Design، مونوليث معياري، "
                               "طبقة خدمات، Policies و RBAC، Sanctum / Passport، طوابير ومهام مجدولة، Octane و Horizon، WebSockets، RabbitMQ"),
-        ("الواجهة (Frontend)", "TypeScript، React 18/19، Next.js 16، TanStack Query، Tailwind v4، shadcn/ui، "
-                               "next-intl (RTL)، Blade، JavaScript، HTML5، CSS3"),
+        ("الواجهة — React و TypeScript", "TypeScript، React 18/19، Next.js 16، TanStack Query، "
+                               "Tailwind v4، shadcn/ui، next-intl (RTL)، Blade، JavaScript، HTML5، CSS3"),
+        ("Full-Stack JS (قيد التعلّم)", "NestJS، Node.js، Modules و Dependency Injection، DTOs "
+                               "و Validation Pipes، Guards و Interceptors، TypeORM / Prisma، Jest — نفس البنية الطبقية "
+                               "وحدود DTO والصلاحيات حسب الدور التي أعمل بها في Laravel، منقولة إلى بيئة Node. "
+                               "واجهة React و TypeScript موجودة فعلياً في الإنتاج."),
         ("البيانات والبنية", "MySQL، SQLite، Redis، Elasticsearch، تصميم المخطّطات وتحسين الاستعلامات، "
                              "Nginx، Apache، Linux، PM2، AWS S3، Cloudinary، Git"),
         ("الممارسات", "بنية طبقية، حدود DTO، أحداث النطاق، إصدارات API، ترحيلات إضافية فقط، "

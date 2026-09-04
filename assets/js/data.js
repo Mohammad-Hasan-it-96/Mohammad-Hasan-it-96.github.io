@@ -22,7 +22,7 @@ const CONTENT = {
     hero: {
       eyebrow: "Software Development Portfolio",
       tagline: "I design, build and own production web platforms end to end — schema to shipped product.",
-      intro: "Laravel and PHP 8 on the back end, React, Next.js and TypeScript on the front — ERPs, multi-vendor marketplaces and a licensing and billing control plane, built on clean service layers, domain boundaries, role-based access and versioned REST APIs. I own these products rather than just implement them: scope, data model, pricing and licensing, release, and the support calls afterwards. Alongside that, five Flutter apps and a hardware side of Arduino and ESP32 systems running in the real world.",
+      intro: "Laravel and PHP 8 on the back end, React, Next.js and TypeScript on the front — ERPs, multi-vendor marketplaces and a licensing and billing control plane, built on clean service layers, domain boundaries, role-based access and versioned REST APIs. I own these products rather than just implement them: scope, data model, pricing and licensing, release, and the support calls afterwards. I work in two full-stack tracks: Laravel with React, in production today; and full-stack TypeScript — NestJS behind the same React front end — which I'm building out now, carrying the same layered architecture across. Alongside that, five Flutter apps and a hardware side of Arduino and ESP32 systems running in the real world.",
       ctaWork: "View projects",
       ctaCv: "Download CV",
       ctaPdf: "Portfolio PDF",
@@ -37,7 +37,7 @@ const CONTENT = {
       title: "About",
       kicker: "Engineer by training, product owner by practice",
       body: [
-        "I'm a Computer Systems Engineer (Automation & Control), graduated with honours from the University of Aleppo, with six years building commercial software — most of it Laravel platforms with React and TypeScript front ends.",
+        "I'm a Computer Systems Engineer (Automation & Control), graduated with honours from the University of Aleppo, with six years building commercial software — most of it Laravel platforms with React and TypeScript front ends. I'm currently learning full-stack JavaScript, taking the same architecture into NestJS on the Node side.",
         "Most of my work runs businesses that real people depend on daily: pharmacies, restaurants, retail shops and distributors. On the products I own, I'm not handed a spec — I sit with the shop owner, work out what the business actually needs, decide what ships first, choose the licensing and pricing model, and take the support call when something breaks at 9pm. That loop, more than any framework, is what six years taught me.",
         "I care about the parts users never see: domain boundaries that survive a year of change, migrations that don't lose a single row, and APIs that stay stable as the product grows. I build Arabic-first (RTL) by default, and I'm equally comfortable soldering a board as I am designing a bounded context."
       ]
@@ -56,8 +56,9 @@ const CONTENT = {
       title: "Skills",
       kicker: "What I work with",
       groups: [
-        { n: "Backend & platform",  i: "server", v: ["PHP 8.4", "Laravel 12", "REST API design", "Domain-Driven Design", "Modular monolith", "Service layer", "Policies & RBAC", "Sanctum / Passport", "Queues & jobs", "Octane & Horizon", "WebSockets", "RabbitMQ"] },
-        { n: "Frontend",            i: "code", v: ["TypeScript", "React 18/19", "Next.js 16", "TanStack Query", "Tailwind v4", "shadcn/ui", "next-intl · RTL", "Blade", "JavaScript", "HTML5", "CSS3"] },
+        { n: "Backend & platform — Laravel",  i: "server", v: ["PHP 8.4", "Laravel 12", "REST API design", "Domain-Driven Design", "Modular monolith", "Service layer", "Policies & RBAC", "Sanctum / Passport", "Queues & jobs", "Octane & Horizon", "WebSockets", "RabbitMQ"] },
+        { n: "Frontend — React & TypeScript",  i: "code", v: ["TypeScript", "React 18/19", "Next.js 16", "TanStack Query", "Tailwind v4", "shadcn/ui", "next-intl · RTL", "Blade", "JavaScript", "HTML5", "CSS3"] },
+        { n: "Full-stack JS — in progress", i: "server", v: ["NestJS", "Node.js", "Modules & DI", "DTOs & validation pipes", "Guards & interceptors", "TypeORM / Prisma", "Jest", "React + TypeScript (already shipped)"] },
         { n: "Data & infrastructure", i: "db", v: ["MySQL", "SQLite", "Redis", "Elasticsearch", "Nginx", "Apache", "Linux", "PM2", "AWS S3", "Cloudinary", "Git", "CI · Larastan · Pint"] },
         { n: "Product & delivery",  i: "file", v: ["Requirements discovery", "Scoping & estimation", "Release planning", "Stakeholder communication", "Subscription & licensing models", "Multi-currency pricing", "API versioning policy", "User documentation", "Production support"] },
         { n: "Mobile",              i: "phone", v: ["Flutter", "Dart", "BLoC", "Provider", "get_it", "Clean Architecture", "Drift", "sqflite", "go_router", "Android"] },
@@ -125,7 +126,7 @@ const CONTENT = {
     hero: {
       eyebrow: "معرض أعمال تطوير البرمجيات",
       tagline: "أصمّم وأبني منصّات ويب إنتاجية وأملك مسارها كاملاً — من مخطّط قاعدة البيانات حتى المنتج المُسلَّم.",
-      intro: "Laravel و PHP 8 في الخلفية، و React و Next.js و TypeScript في الواجهة — أنظمة ERP، وأسواق متعدّدة البائعين، ومنصّة ترخيص وفوترة، مبنية على طبقات خدمات نظيفة وحدود نطاق واضحة وصلاحيات حسب الدور وواجهات REST مُصدَّرة بإصدارات. أملك هذه المنتجات ولا أكتفي بتنفيذها: تحديد النطاق، ونمذجة البيانات، والتسعير والترخيص، والإصدار، ومكالمات الدعم بعد ذلك. وإلى جانبها خمسة تطبيقات Flutter وجانب عتادي من أنظمة Arduino و ESP32 تعمل فعلياً على أرض الواقع.",
+      intro: "Laravel و PHP 8 في الخلفية، و React و Next.js و TypeScript في الواجهة — أنظمة ERP، وأسواق متعدّدة البائعين، ومنصّة ترخيص وفوترة، مبنية على طبقات خدمات نظيفة وحدود نطاق واضحة وصلاحيات حسب الدور وواجهات REST مُصدَّرة بإصدارات. أملك هذه المنتجات ولا أكتفي بتنفيذها: تحديد النطاق، ونمذجة البيانات، والتسعير والترخيص، والإصدار، ومكالمات الدعم بعد ذلك. أعمل ضمن مساري Full-Stack: مسار Laravel مع React وهو قيد الإنتاج اليوم، ومسار TypeScript الكامل — NestJS خلف نفس واجهة React — وأبنيه الآن ناقلاً إليه نفس البنية الطبقية. وإلى جانبهما خمسة تطبيقات Flutter وجانب عتادي من أنظمة Arduino و ESP32 تعمل فعلياً على أرض الواقع.",
       ctaWork: "شاهد المشاريع",
       ctaCv: "تحميل السيرة الذاتية",
       ctaPdf: "ملف الأعمال PDF",
@@ -140,7 +141,7 @@ const CONTENT = {
       title: "نبذة",
       kicker: "مهندس بالدراسة، ومالك منتج بالممارسة",
       body: [
-        "مهندس نظم حاسوبية (أتمتة وتحكّم)، خرّيج جامعة حلب بمرتبة الشرف، بستّ سنوات في بناء البرمجيات التجارية — معظمها منصّات Laravel بواجهات React و TypeScript.",
+        "مهندس نظم حاسوبية (أتمتة وتحكّم)، خرّيج جامعة حلب بمرتبة الشرف، بستّ سنوات في بناء البرمجيات التجارية — معظمها منصّات Laravel بواجهات React و TypeScript. وأتعلّم حالياً جافاسكربت Full-Stack، ناقلاً نفس البنية إلى NestJS في بيئة Node.",
         "معظم شغلي أنظمة تُدير أعمالاً يعتمد عليها ناس حقيقيون يومياً: صيدليات ومطاعم ومحلات تجزئة وشركات توزيع. في المنتجات التي أملكها لا يُسلَّم لي دفتر مواصفات — أجلس مع صاحب العمل، وأستخرج ما يحتاجه فعلاً، وأقرّر ما الذي يصدر أولاً، وأختار نموذج الترخيص والتسعير، وأستقبل مكالمة الدعم حين يتعطّل شيء في التاسعة مساءً. هذه الدورة، أكثر من أي إطار عمل، هي ما علّمتني إياه السنوات الستّ.",
         "يهمّني الجزء الذي لا يراه المستخدم: حدود نطاق تصمد سنة من التغيير، وترحيلات لا تُضيّع سطراً واحداً، وواجهات API تبقى مستقرّة مع نمو المنتج. أبني بالعربية أولاً (RTL) افتراضياً، ومرتاح في لحام لوحة إلكترونية بقدر ارتياحي في تصميم bounded context."
       ]
@@ -159,8 +160,9 @@ const CONTENT = {
       title: "المهارات",
       kicker: "الأدوات التي أعمل بها",
       groups: [
-        { n: "الخلفيات والمنصّات",   i: "server", v: ["PHP 8.4", "Laravel 12", "REST API design", "Domain-Driven Design", "Modular monolith", "Service layer", "Policies & RBAC", "Sanctum / Passport", "Queues & jobs", "Octane & Horizon", "WebSockets", "RabbitMQ"] },
-        { n: "الواجهات (Frontend)", i: "code", v: ["TypeScript", "React 18/19", "Next.js 16", "TanStack Query", "Tailwind v4", "shadcn/ui", "next-intl · RTL", "Blade", "JavaScript", "HTML5", "CSS3"] },
+        { n: "الخلفيات والمنصّات — Laravel",   i: "server", v: ["PHP 8.4", "Laravel 12", "REST API design", "Domain-Driven Design", "Modular monolith", "Service layer", "Policies & RBAC", "Sanctum / Passport", "Queues & jobs", "Octane & Horizon", "WebSockets", "RabbitMQ"] },
+        { n: "الواجهات — React و TypeScript", i: "code", v: ["TypeScript", "React 18/19", "Next.js 16", "TanStack Query", "Tailwind v4", "shadcn/ui", "next-intl · RTL", "Blade", "JavaScript", "HTML5", "CSS3"] },
+        { n: "Full-Stack JS — قيد التعلّم", i: "server", v: ["NestJS", "Node.js", "Modules و DI", "DTOs و Validation Pipes", "Guards و Interceptors", "TypeORM / Prisma", "Jest", "React + TypeScript (منجَز فعلياً)"] },
         { n: "البيانات والبنية",     i: "db", v: ["MySQL", "SQLite", "Redis", "Elasticsearch", "Nginx", "Apache", "Linux", "PM2", "AWS S3", "Cloudinary", "Git", "CI · Larastan · Pint"] },
         { n: "المنتج والتسليم",      i: "file", v: ["استخراج المتطلّبات", "تحديد النطاق والتقدير", "تخطيط الإصدارات", "التواصل مع أصحاب المصلحة", "نماذج الاشتراك والترخيص", "التسعير متعدّد العملات", "سياسة إصدارات API", "توثيق المستخدم", "دعم الإنتاج"] },
         { n: "الموبايل",            i: "phone", v: ["Flutter", "Dart", "BLoC", "Provider", "get_it", "Clean Architecture", "Drift", "sqflite", "go_router", "Android"] },
