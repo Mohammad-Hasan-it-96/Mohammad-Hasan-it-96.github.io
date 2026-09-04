@@ -5,8 +5,8 @@
 const PROFILE = {
   name:   { en: "Mohamad Hasan",  ar: "محمد حسن" },
   full:   { en: "Mohamad Harfoush Hasan", ar: "محمد حرفوش حسن" },
-  role:   { en: "Full-Stack Developer — Flutter & Laravel",
-            ar: "مطوّر Full-Stack — Flutter و Laravel" },
+  role:   { en: "Full-Stack Developer — Laravel · React · TypeScript",
+            ar: "مطوّر Full-Stack — Laravel و React و TypeScript" },
   location: { en: "Damascus, Syria", ar: "دمشق، سوريا" },
   email: "mohamad.hasan.it.96@gmail.com",
   phone: "+963 983 820 430",
@@ -21,31 +21,31 @@ const CONTENT = {
     langBtn: "العربية",
     hero: {
       eyebrow: "Software Development Portfolio",
-      tagline: "I design and ship production mobile apps and backend platforms end to end.",
-      intro: "From offline-first Flutter apps with device licensing, thermal printing and push notifications, to Laravel ERPs and multi-vendor marketplaces with clean service layers, role-based access and versioned REST APIs. Plus a hardware side — Arduino and ESP32 control systems running in the real world.",
+      tagline: "I design, build and own production web platforms end to end — schema to shipped product.",
+      intro: "Laravel and PHP 8 on the back end, React, Next.js and TypeScript on the front — ERPs, multi-vendor marketplaces and a licensing and billing control plane, built on clean service layers, domain boundaries, role-based access and versioned REST APIs. I own these products rather than just implement them: scope, data model, pricing and licensing, release, and the support calls afterwards. Alongside that, five Flutter apps and a hardware side of Arduino and ESP32 systems running in the real world.",
       ctaWork: "View projects",
       ctaCv: "Download CV",
       ctaPdf: "Portfolio PDF",
       stats: [
-        { n: "12", l: "Selected projects" },
+        { n: "9",  l: "Products shipped end to end" },
         { n: "6",  l: "Years of experience" },
-        { n: "5",  l: "Flutter apps" },
-        { n: "4",  l: "Laravel backends" }
+        { n: "4",  l: "Laravel platforms" },
+        { n: "12", l: "Selected projects" }
       ]
     },
     about: {
       title: "About",
-      kicker: "Engineer first, developer by trade",
+      kicker: "Engineer by training, product owner by practice",
       body: [
-        "I'm a Computer Systems Engineer (Automation & Control), graduated with honours from the University of Aleppo, with six years of practical experience spanning software development, IT support, technical sales and embedded electronics.",
-        "Most of my work is commercial software that real businesses depend on daily — pharmacies, restaurants, retail shops and distributors. I care about the parts users never see: offline-first data layers that survive a dead connection, licensing that can't be trivially bypassed, migrations that don't lose a single row, and APIs that stay stable as the product grows.",
-        "I build Arabic-first (RTL) by default, and I'm equally comfortable soldering a board as I am designing a bounded context."
+        "I'm a Computer Systems Engineer (Automation & Control), graduated with honours from the University of Aleppo, with six years building commercial software — most of it Laravel platforms with React and TypeScript front ends.",
+        "Most of my work runs businesses that real people depend on daily: pharmacies, restaurants, retail shops and distributors. On the products I own, I'm not handed a spec — I sit with the shop owner, work out what the business actually needs, decide what ships first, choose the licensing and pricing model, and take the support call when something breaks at 9pm. That loop, more than any framework, is what six years taught me.",
+        "I care about the parts users never see: domain boundaries that survive a year of change, migrations that don't lose a single row, and APIs that stay stable as the product grows. I build Arabic-first (RTL) by default, and I'm equally comfortable soldering a board as I am designing a bounded context."
       ]
     },
-    filters: { all: "All", flutter: "Flutter", laravel: "Laravel & Platform", embedded: "Embedded" },
+    filters: { all: "All", laravel: "Platforms & APIs", flutter: "Mobile", embedded: "Embedded" },
     work: {
       title: "Selected work",
-      kicker: "Twelve projects across mobile, backend and hardware",
+      kicker: "Twelve projects across platforms, mobile and hardware",
       open: "Details",
       close: "Close",
       features: "Key features",
@@ -56,11 +56,12 @@ const CONTENT = {
       title: "Skills",
       kicker: "What I work with",
       groups: [
+        { n: "Backend & platform",  i: "server", v: ["PHP 8.4", "Laravel 12", "REST API design", "Domain-Driven Design", "Modular monolith", "Service layer", "Policies & RBAC", "Sanctum / Passport", "Queues & jobs", "Octane & Horizon", "WebSockets", "RabbitMQ"] },
+        { n: "Frontend",            i: "code", v: ["TypeScript", "React 18/19", "Next.js 16", "TanStack Query", "Tailwind v4", "shadcn/ui", "next-intl · RTL", "Blade", "JavaScript", "HTML5", "CSS3"] },
+        { n: "Data & infrastructure", i: "db", v: ["MySQL", "SQLite", "Redis", "Elasticsearch", "Nginx", "Apache", "Linux", "PM2", "AWS S3", "Cloudinary", "Git", "CI · Larastan · Pint"] },
+        { n: "Product & delivery",  i: "file", v: ["Requirements discovery", "Scoping & estimation", "Release planning", "Stakeholder communication", "Subscription & licensing models", "Multi-currency pricing", "API versioning policy", "User documentation", "Production support"] },
         { n: "Mobile",              i: "phone", v: ["Flutter", "Dart", "BLoC", "Provider", "get_it", "Clean Architecture", "Drift", "sqflite", "go_router", "Android"] },
-        { n: "Backend",             i: "server", v: ["PHP 8.x", "Laravel 12", "REST API design", "DDD", "Service layer", "Policies & RBAC", "Passport / Sanctum", "Queues & jobs", "WebSockets", "RabbitMQ"] },
-        { n: "Frontend",            i: "code", v: ["JavaScript", "TypeScript", "React 18/19", "Next.js", "Tailwind", "Bootstrap", "Blade", "jQuery", "HTML5", "CSS3"] },
-        { n: "Data & Infra",        i: "db", v: ["MySQL", "SQLite", "Redis", "Elasticsearch", "Octane & Horizon", "Nginx", "Apache", "Linux", "AWS S3", "Cloudinary", "Git"] },
-        { n: "Integrations",        i: "plug", v: ["Firebase FCM", "Stripe", "Razorpay", "MercadoPago", "Telr", "2GIS Maps", "Google Drive API", "Telegram Bot API", "Odoo ERP sync", "PhpSpreadsheet"] },
+        { n: "Integrations",        i: "plug", v: ["Stripe", "Razorpay", "MercadoPago", "Telr", "Odoo ERP sync", "Firebase FCM", "Google Drive API", "Telegram Bot API", "2GIS Maps", "PhpSpreadsheet"] },
         { n: "Embedded & hardware", i: "chip", v: ["Arduino", "ESP32", "C / C++", "RTC modules", "Relay control", "Sensors", "LCD / OLED", "ESC & brushless motors", "Wi-Fi / IoT", "Soldering"] },
         { n: "IT support",          i: "tool", v: ["PC & laptop diagnostics", "Component replacement", "Thermal maintenance", "OS installation", "Networking", "User support"] }
       ]
@@ -69,16 +70,21 @@ const CONTENT = {
       title: "Experience",
       kicker: "Where I've worked",
       items: [
+        { r: "Full-Stack Developer (Independent)", c: "Self-employed", l: "Damascus, Syria · Remote", d: "2021 – Present",
+          p: ["Own commercial products end to end for pharmacies, restaurants, retail shops and distributors — requirements, architecture, build, release and support.",
+              "EvoTech Core: a licensing, subscription and billing control plane — modular monolith of 14 domain modules, three auth audiences, Next.js 16 / React 19 / TypeScript front end.",
+              "Decide scope, data model, licensing and multi-currency pricing directly with the business owner, then run releases and production support.",
+              "Ship Arabic-first (RTL) on both tiers, with versioned APIs and append-only migrations so live customer data is never at risk."] },
         { r: "IT Sales Specialist", c: "Global 4 Laptop Shop", l: "Damascus, Syria", d: "2026 – Present",
-          p: ["Advise business and individual customers on laptops, components and peripherals, matching specifications to technical requirements and budget.",
+          p: ["Advise business and individual customers on laptops, components and peripherals, translating a stated budget and workload into a concrete specification.",
               "Pre-sales technical consultation and post-sale support: system configuration, OS installation and troubleshooting."] },
         { r: "Full-Stack Laravel Developer", c: "Rammaz Software", l: "Remote — Turkey", d: "2021 – May 2026",
-          p: ["Built and maintained scalable Laravel backends and RESTful APIs serving both web and mobile clients.",
-              "Shipped marketplace (e-commerce) platforms and a digital wallet solution.",
-              "Integrated third-party APIs and payment gateways into production systems.",
-              "Optimised MySQL databases and application performance for high-traffic modules.",
-              "Implemented queues, background jobs and asynchronous processing for heavy workloads.",
-              "Managed cloud storage on AWS S3 and Cloudinary; contributed to architecture and feature planning."] },
+          p: ["Built and maintained scalable Laravel backends and versioned RESTful APIs serving web and mobile clients, in a fully remote team.",
+              "Shipped Trydos Market, a large multi-vendor marketplace built with Domain-Driven Design — separate bounded contexts for Orders, Products, Wallet, Returns, Seller and Invoice — plus a digital wallet solution.",
+              "Integrated four payment gateways (Stripe, Razorpay, MercadoPago, Telr), external shipping and two-way Odoo ERP sync.",
+              "Built Elasticsearch-backed search and Redis caching; ran the platform on Octane with Horizon supervising queues.",
+              "Optimised MySQL schemas and queries for high-traffic modules; moved heavy workloads into queues and scheduled jobs.",
+              "Managed cloud storage on AWS S3 and Cloudinary; contributed to architecture decisions and feature planning."] },
         { r: "Laptop Sales Manager & IT Technician", c: "iApple Shop", l: "Aleppo, Syria", d: "2021 – 2022",
           p: ["Managed sales of the store's non-Apple laptop range, matching hardware to customers' technical needs and budget.",
               "Software services: OS installation, driver setup, system optimisation and troubleshooting.",
@@ -100,7 +106,7 @@ const CONTENT = {
     },
     contact: {
       title: "Let's build something",
-      kicker: "Available for Flutter mobile development, Laravel backend engineering and full-stack product delivery.",
+      kicker: "Available for Laravel and full-stack engineering, React and TypeScript product work, and technical product ownership.",
       email: "Email me",
       whatsapp: "WhatsApp",
       github: "GitHub",
@@ -118,31 +124,31 @@ const CONTENT = {
     langBtn: "English",
     hero: {
       eyebrow: "معرض أعمال تطوير البرمجيات",
-      tagline: "أصمّم وأبني تطبيقات موبايل ومنصات خلفية جاهزة للإنتاج من البداية للنهاية.",
-      intro: "من تطبيقات Flutter تعمل دون اتصال بالكامل، مع ترخيص مرتبط بالجهاز وطباعة حرارية وإشعارات فورية، إلى أنظمة ERP على Laravel وأسواق متعدّدة البائعين ببنية خدمات نظيفة وصلاحيات حسب الدور وواجهات REST مُصدَّرة بإصدارات. إضافةً إلى جانب عتادي — أنظمة تحكّم على Arduino و ESP32 تعمل فعلياً على أرض الواقع.",
+      tagline: "أصمّم وأبني منصّات ويب إنتاجية وأملك مسارها كاملاً — من مخطّط قاعدة البيانات حتى المنتج المُسلَّم.",
+      intro: "Laravel و PHP 8 في الخلفية، و React و Next.js و TypeScript في الواجهة — أنظمة ERP، وأسواق متعدّدة البائعين، ومنصّة ترخيص وفوترة، مبنية على طبقات خدمات نظيفة وحدود نطاق واضحة وصلاحيات حسب الدور وواجهات REST مُصدَّرة بإصدارات. أملك هذه المنتجات ولا أكتفي بتنفيذها: تحديد النطاق، ونمذجة البيانات، والتسعير والترخيص، والإصدار، ومكالمات الدعم بعد ذلك. وإلى جانبها خمسة تطبيقات Flutter وجانب عتادي من أنظمة Arduino و ESP32 تعمل فعلياً على أرض الواقع.",
       ctaWork: "شاهد المشاريع",
       ctaCv: "تحميل السيرة الذاتية",
       ctaPdf: "ملف الأعمال PDF",
       stats: [
-        { n: "١٢", l: "مشروع مختار" },
+        { n: "٩",  l: "منتج سُلّم كاملاً" },
         { n: "٦",  l: "سنوات خبرة" },
-        { n: "٥",  l: "تطبيق Flutter" },
-        { n: "٤",  l: "نظام Laravel" }
+        { n: "٤",  l: "منصّة Laravel" },
+        { n: "١٢", l: "مشروع مختار" }
       ]
     },
     about: {
       title: "نبذة",
-      kicker: "مهندس أولاً، ومطوّر بحكم المهنة",
+      kicker: "مهندس بالدراسة، ومالك منتج بالممارسة",
       body: [
-        "مهندس نظم حاسوبية (أتمتة وتحكّم)، خرّيج جامعة حلب بمرتبة الشرف، بستّ سنوات خبرة عملية تمتدّ على تطوير البرمجيات والدعم الفني والمبيعات التقنية والإلكترونيات المدمجة.",
-        "معظم شغلي برمجيات تجارية تعتمد عليها شركات حقيقية يومياً — صيدليات ومطاعم ومحلات تجزئة وشركات توزيع. يهمّني الجزء الذي لا يراه المستخدم: طبقة بيانات تعمل دون اتصال وتصمد عند انقطاع الشبكة، ونظام ترخيص لا يُلتفّ عليه بسهولة، وترحيلات قواعد بيانات لا تُضيّع سطراً واحداً، وواجهات API تبقى مستقرّة مع نمو المنتج.",
-        "أبني بالعربية أولاً (RTL) بشكل افتراضي، ومرتاح في لحام لوحة إلكترونية بقدر ارتياحي في تصميم bounded context."
+        "مهندس نظم حاسوبية (أتمتة وتحكّم)، خرّيج جامعة حلب بمرتبة الشرف، بستّ سنوات في بناء البرمجيات التجارية — معظمها منصّات Laravel بواجهات React و TypeScript.",
+        "معظم شغلي أنظمة تُدير أعمالاً يعتمد عليها ناس حقيقيون يومياً: صيدليات ومطاعم ومحلات تجزئة وشركات توزيع. في المنتجات التي أملكها لا يُسلَّم لي دفتر مواصفات — أجلس مع صاحب العمل، وأستخرج ما يحتاجه فعلاً، وأقرّر ما الذي يصدر أولاً، وأختار نموذج الترخيص والتسعير، وأستقبل مكالمة الدعم حين يتعطّل شيء في التاسعة مساءً. هذه الدورة، أكثر من أي إطار عمل، هي ما علّمتني إياه السنوات الستّ.",
+        "يهمّني الجزء الذي لا يراه المستخدم: حدود نطاق تصمد سنة من التغيير، وترحيلات لا تُضيّع سطراً واحداً، وواجهات API تبقى مستقرّة مع نمو المنتج. أبني بالعربية أولاً (RTL) افتراضياً، ومرتاح في لحام لوحة إلكترونية بقدر ارتياحي في تصميم bounded context."
       ]
     },
-    filters: { all: "الكل", flutter: "Flutter", laravel: "Laravel والمنصّات", embedded: "الأنظمة المدمجة" },
+    filters: { all: "الكل", laravel: "المنصّات و APIs", flutter: "الموبايل", embedded: "الأنظمة المدمجة" },
     work: {
       title: "أعمال مختارة",
-      kicker: "اثنا عشر مشروعاً بين الموبايل والخلفيات والعتاد",
+      kicker: "اثنا عشر مشروعاً بين المنصّات والموبايل والعتاد",
       open: "التفاصيل",
       close: "إغلاق",
       features: "أبرز الميزات",
@@ -153,11 +159,12 @@ const CONTENT = {
       title: "المهارات",
       kicker: "الأدوات التي أعمل بها",
       groups: [
+        { n: "الخلفيات والمنصّات",   i: "server", v: ["PHP 8.4", "Laravel 12", "REST API design", "Domain-Driven Design", "Modular monolith", "Service layer", "Policies & RBAC", "Sanctum / Passport", "Queues & jobs", "Octane & Horizon", "WebSockets", "RabbitMQ"] },
+        { n: "الواجهات (Frontend)", i: "code", v: ["TypeScript", "React 18/19", "Next.js 16", "TanStack Query", "Tailwind v4", "shadcn/ui", "next-intl · RTL", "Blade", "JavaScript", "HTML5", "CSS3"] },
+        { n: "البيانات والبنية",     i: "db", v: ["MySQL", "SQLite", "Redis", "Elasticsearch", "Nginx", "Apache", "Linux", "PM2", "AWS S3", "Cloudinary", "Git", "CI · Larastan · Pint"] },
+        { n: "المنتج والتسليم",      i: "file", v: ["استخراج المتطلّبات", "تحديد النطاق والتقدير", "تخطيط الإصدارات", "التواصل مع أصحاب المصلحة", "نماذج الاشتراك والترخيص", "التسعير متعدّد العملات", "سياسة إصدارات API", "توثيق المستخدم", "دعم الإنتاج"] },
         { n: "الموبايل",            i: "phone", v: ["Flutter", "Dart", "BLoC", "Provider", "get_it", "Clean Architecture", "Drift", "sqflite", "go_router", "Android"] },
-        { n: "الخلفيات (Backend)",  i: "server", v: ["PHP 8.x", "Laravel 12", "REST API design", "DDD", "Service layer", "Policies & RBAC", "Passport / Sanctum", "Queues & jobs", "WebSockets", "RabbitMQ"] },
-        { n: "الواجهات (Frontend)", i: "code", v: ["JavaScript", "TypeScript", "React 18/19", "Next.js", "Tailwind", "Bootstrap", "Blade", "jQuery", "HTML5", "CSS3"] },
-        { n: "البيانات والبنية",     i: "db", v: ["MySQL", "SQLite", "Redis", "Elasticsearch", "Octane & Horizon", "Nginx", "Apache", "Linux", "AWS S3", "Cloudinary", "Git"] },
-        { n: "التكاملات",           i: "plug", v: ["Firebase FCM", "Stripe", "Razorpay", "MercadoPago", "Telr", "2GIS Maps", "Google Drive API", "Telegram Bot API", "Odoo ERP sync", "PhpSpreadsheet"] },
+        { n: "التكاملات",           i: "plug", v: ["Stripe", "Razorpay", "MercadoPago", "Telr", "Odoo ERP sync", "Firebase FCM", "Google Drive API", "Telegram Bot API", "2GIS Maps", "PhpSpreadsheet"] },
         { n: "الإلكترونيات المدمجة", i: "chip", v: ["Arduino", "ESP32", "C / C++", "RTC modules", "Relay control", "Sensors", "LCD / OLED", "ESC & brushless motors", "Wi-Fi / IoT", "لحام الدارات"] },
         { n: "الدعم الفني",         i: "tool", v: ["تشخيص وصيانة الحواسيب واللابتوبات", "استبدال القطع", "الصيانة الحرارية", "تنصيب أنظمة التشغيل", "الشبكات", "دعم المستخدمين"] }
       ]
@@ -166,16 +173,21 @@ const CONTENT = {
       title: "الخبرة العملية",
       kicker: "أين عملت",
       items: [
+        { r: "مطوّر Full-Stack (عمل مستقل)", c: "لحسابي الخاص", l: "دمشق، سوريا · عن بُعد", d: "2021 – حتى الآن",
+          p: ["أملك منتجات تجارية من البداية للنهاية لصيدليات ومطاعم ومحلات تجزئة وشركات توزيع — المتطلّبات، والبنية، والتنفيذ، والإصدار، والدعم.",
+              "EvoTech Core: منصّة ترخيص واشتراكات وفوترة — مونوليث معياري من 14 وحدة نطاق، وثلاثة جماهير مصادقة، وواجهة Next.js 16 / React 19 / TypeScript.",
+              "أحدّد النطاق ونموذج البيانات والترخيص والتسعير متعدّد العملات مباشرةً مع صاحب العمل، ثم أدير الإصدارات ودعم الإنتاج.",
+              "أُسلّم بالعربية أولاً (RTL) في الطبقتين، مع واجهات مُصدَّرة وترحيلات إضافية فقط بحيث لا تتعرّض بيانات العملاء الحيّة لأي خطر."] },
         { r: "أخصائي مبيعات تقنية", c: "Global 4 Laptop Shop", l: "دمشق، سوريا", d: "2026 – حتى الآن",
-          p: ["تقديم الاستشارة لعملاء الشركات والأفراد في اللابتوبات والقطع والملحقات، ومطابقة المواصفات مع الاحتياج التقني والميزانية.",
+          p: ["تقديم الاستشارة لعملاء الشركات والأفراد في اللابتوبات والقطع والملحقات، وترجمة الميزانية وطبيعة العمل إلى مواصفات محدّدة.",
               "استشارة تقنية قبل البيع ودعم بعد البيع: إعداد النظام، تنصيب نظام التشغيل، ومعالجة الأعطال."] },
         { r: "مطوّر Laravel — Full-Stack", c: "Rammaz Software", l: "عن بُعد — تركيا", d: "2021 – أيار 2026",
-          p: ["بناء وصيانة أنظمة Laravel خلفية قابلة للتوسّع وواجهات RESTful تخدم عملاء الويب والموبايل.",
-              "تطوير وإطلاق منصّات تجارة إلكترونية (marketplace) وحلّ محفظة رقمية.",
-              "دمج واجهات طرف ثالث وبوّابات دفع ضمن أنظمة إنتاجية.",
-              "تحسين أداء قواعد بيانات MySQL والتطبيق للوحدات عالية الحِمل.",
-              "تنفيذ الطوابير والمهام الخلفية والمعالجة غير المتزامنة للأعباء الثقيلة.",
-              "إدارة التخزين السحابي على AWS S3 و Cloudinary، والمساهمة في تصميم البنية وتخطيط الميزات."] },
+          p: ["بناء وصيانة أنظمة Laravel خلفية قابلة للتوسّع وواجهات RESTful مُصدَّرة تخدم عملاء الويب والموبايل، ضمن فريق يعمل عن بُعد بالكامل.",
+              "إطلاق Trydos Market، منصّة واسعة متعدّدة البائعين مبنية بـ Domain-Driven Design — سياقات منفصلة للطلبات والمنتجات والمحفظة والمرتجعات والبائعين والفواتير — إضافةً إلى حلّ محفظة رقمية.",
+              "دمج أربع بوّابات دفع (Stripe و Razorpay و MercadoPago و Telr)، وشحن خارجي، ومزامنة ثنائية الاتجاه مع Odoo ERP.",
+              "بناء بحث معتمد على Elasticsearch وتخزين مؤقّت على Redis، وتشغيل المنصّة على Octane مع Horizon لإدارة الطوابير.",
+              "تحسين مخطّطات واستعلامات MySQL للوحدات عالية الحِمل، ونقل الأعباء الثقيلة إلى الطوابير والمهام المجدولة.",
+              "إدارة التخزين السحابي على AWS S3 و Cloudinary، والمساهمة في قرارات البنية وتخطيط الميزات."] },
         { r: "مدير مبيعات لابتوبات وفنّي تقني", c: "iApple Shop", l: "حلب، سوريا", d: "2021 – 2022",
           p: ["إدارة مبيعات اللابتوبات غير التابعة لـ Apple في المحل، ومطابقة العتاد مع احتياج الزبون وميزانيته.",
               "خدمات برمجية: تنصيب أنظمة التشغيل والتعريفات، وتحسين أداء النظام، ومعالجة الأعطال.",
@@ -197,7 +209,7 @@ const CONTENT = {
     },
     contact: {
       title: "لنبنِ شيئاً معاً",
-      kicker: "متاح لتطوير تطبيقات Flutter، وهندسة الخلفيات على Laravel، وتسليم منتجات Full-Stack كاملة.",
+      kicker: "متاح لهندسة Laravel والتطوير الشامل، وعمل المنتجات على React و TypeScript، وملكية المنتج التقنية.",
       email: "راسلني بالإيميل",
       whatsapp: "واتساب",
       github: "GitHub",

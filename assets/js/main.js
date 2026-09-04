@@ -186,7 +186,7 @@
 
   function renderWork(t) {
     var w = t.work, f = t.filters;
-    var order = ["all", "flutter", "laravel", "embedded"];
+    var order = ["all", "laravel", "flutter", "embedded"];
     var filters = order.map(function (k) {
       return '<button class="filter' + (k === filter ? " on" : "") + '" data-filter="' + k + '">' + esc(f[k]) + '</button>';
     }).join("");
