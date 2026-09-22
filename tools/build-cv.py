@@ -51,17 +51,20 @@ CV[("engineer", "en")] = {
         "Computer Systems Engineer, graduated with honours. Arabic-first (RTL) by default.",
     "stack": [
         ("Backend — Laravel", "PHP 8.4, Laravel 12, REST API design, Domain-Driven Design, modular monolith, service layer, "
-                    "policies & RBAC, Sanctum / Passport, queues & scheduled jobs, Octane & Horizon, WebSockets, RabbitMQ"),
+                    "policies & RBAC, Sanctum / Passport, Livewire, Filament, queues & scheduled jobs, Octane & Horizon, WebSockets, RabbitMQ, Telescope"),
         ("Frontend — React & TypeScript", "TypeScript, React 18/19, Next.js 16, TanStack Query, Tailwind v4, "
                      "shadcn/ui, next-intl (RTL), Blade, JavaScript, HTML5, CSS3"),
         ("Full-stack JS (in progress)", "NestJS, Node.js, modules & dependency injection, DTOs & validation "
                      "pipes, guards & interceptors, TypeORM / Prisma, Jest — the same layered architecture, DTO "
                      "boundaries and role-based access I already run in Laravel, moved to the Node side. The React "
                      "and TypeScript front end is already in production."),
-        ("Data & infrastructure", "MySQL, SQLite, Redis, Elasticsearch, schema design, query optimisation, "
-                                  "Nginx, Apache, Linux, PM2, AWS S3, Cloudinary, Git"),
+        ("Data", "MySQL, PostgreSQL, SQLite, Redis, Elasticsearch, schema design, query optimisation, "
+                 "AWS S3, Cloudinary"),
+        ("Deployment & operations", "Docker, Docker Compose, GitHub Actions, CI, Nginx, Apache, Linux, "
+                                    "VPS provisioning, Cloudflare, Supervisor, PM2, cron & scheduled tasks, "
+                                    "server monitoring, automated backups, Git"),
         ("Practices", "Layered architecture, DTO boundaries, domain events, API versioning, append-only migrations, "
-                      "Larastan (max level), Pint, CI, code review"),
+                      "Larastan (max level), PHPUnit / Pest, Pint, CI, code review, technical documentation"),
         ("Mobile", "Flutter, Dart, BLoC, Provider, get_it, Clean Architecture, Drift, sqflite, offline-first architecture"),
         ("Also", "Arduino, ESP32, C/C++, embedded control systems"),
     ],
@@ -223,15 +226,15 @@ CV[("engineer", "ar")] = {
         "وأبني بالعربية أولاً (RTL) افتراضياً.",
     "stack": [
         ("الخلفية — Laravel", "PHP 8.4، Laravel 12، تصميم REST API، Domain-Driven Design، مونوليث معياري، "
-                              "طبقة خدمات، Policies و RBAC، Sanctum / Passport، طوابير ومهام مجدولة، Octane و Horizon، WebSockets، RabbitMQ"),
+                              "طبقة خدمات، Policies و RBAC، Sanctum / Passport، Livewire، Filament، طوابير ومهام مجدولة، Octane و Horizon، WebSockets، RabbitMQ، Telescope"),
         ("الواجهة — React و TypeScript", "TypeScript، React 18/19، Next.js 16، TanStack Query، "
                                "Tailwind v4، shadcn/ui، next-intl (RTL)، Blade، JavaScript، HTML5، CSS3"),
         ("Full-Stack JS (قيد التعلّم)", "NestJS، Node.js، Modules و Dependency Injection، DTOs "
                                "و Validation Pipes، Guards و Interceptors، TypeORM / Prisma، Jest — نفس البنية الطبقية "
                                "وحدود DTO والصلاحيات حسب الدور التي أعمل بها في Laravel، منقولة إلى بيئة Node. "
                                "واجهة React و TypeScript موجودة فعلياً في الإنتاج."),
-        ("البيانات والبنية", "MySQL، SQLite، Redis، Elasticsearch، تصميم المخطّطات وتحسين الاستعلامات، "
-                             "Nginx، Apache، Linux، PM2، AWS S3، Cloudinary، Git"),
+        ("البيانات", "MySQL، PostgreSQL، SQLite، Redis، Elasticsearch، تصميم المخطّطات وتحسين الاستعلامات، AWS S3، Cloudinary"),
+        ("النشر والتشغيل", "Docker، Docker Compose، GitHub Actions، CI، Nginx، Apache، Linux، تجهيز الخوادم، Cloudflare، Supervisor، PM2، المهام المجدولة، مراقبة الخوادم، النسخ الاحتياطي الآلي، Git"),
         ("الممارسات", "بنية طبقية، حدود DTO، أحداث النطاق، إصدارات API، ترحيلات إضافية فقط، "
                       "Larastan (أقصى مستوى)، Pint، CI، مراجعة الكود"),
         ("الموبايل", "Flutter، Dart، BLoC، Provider، get_it، Clean Architecture، Drift، sqflite، بنية تعمل دون اتصال"),

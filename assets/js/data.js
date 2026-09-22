@@ -56,13 +56,14 @@ const CONTENT = {
       title: "Skills",
       kicker: "What I work with",
       groups: [
-        { n: "Backend & platform — Laravel",  i: "server", v: ["PHP 8.4", "Laravel 12", "REST API design", "Domain-Driven Design", "Modular monolith", "Service layer", "Policies & RBAC", "Sanctum / Passport", "Queues & jobs", "Octane & Horizon", "WebSockets", "RabbitMQ"] },
-        { n: "Frontend — React & TypeScript",  i: "code", v: ["TypeScript", "React 18/19", "Next.js 16", "TanStack Query", "Tailwind v4", "shadcn/ui", "next-intl · RTL", "Blade", "JavaScript", "HTML5", "CSS3"] },
+        { n: "Backend & platform — Laravel",  i: "server", v: ["PHP 8.4", "Laravel 12", "REST API design", "Domain-Driven Design", "Modular monolith", "Service layer", "Policies & RBAC", "Sanctum / Passport", "Livewire", "Filament", "Queues & jobs", "Octane & Horizon", "WebSockets", "RabbitMQ", "PHPUnit / Pest", "Telescope"] },
+        { n: "Frontend — React & TypeScript",  i: "code", v: ["TypeScript", "React 18/19", "Next.js 16", "TanStack Query", "Tailwind v4", "shadcn/ui", "next-intl · RTL", "Blade", "JavaScript", "HTML5", "CSS3", "npm / pnpm"] },
         { n: "Full-stack JS — in progress", i: "server", v: ["NestJS", "Node.js", "Modules & DI", "DTOs & validation pipes", "Guards & interceptors", "TypeORM / Prisma", "Jest", "React + TypeScript (already shipped)"] },
-        { n: "Data & infrastructure", i: "db", v: ["MySQL", "SQLite", "Redis", "Elasticsearch", "Nginx", "Apache", "Linux", "PM2", "AWS S3", "Cloudinary", "Git", "CI · Larastan · Pint"] },
-        { n: "Product & delivery",  i: "file", v: ["Requirements discovery", "Scoping & estimation", "Release planning", "Stakeholder communication", "Subscription & licensing models", "Multi-currency pricing", "API versioning policy", "User documentation", "Production support"] },
+        { n: "Data & storage",     i: "db", v: ["MySQL", "PostgreSQL", "SQLite", "Redis", "Elasticsearch", "AWS S3", "Cloudinary"] },
+        { n: "Deployment & operations", i: "server", v: ["Docker", "Docker Compose", "GitHub Actions", "CI · Larastan · Pint", "Nginx", "Apache", "Linux", "VPS provisioning", "Contabo", "Cloudflare", "Supervisor", "PM2", "Cron & scheduled tasks", "Server monitoring", "Automated backups", "Git"] },
+        { n: "Product & delivery",  i: "file", v: ["Requirements discovery", "Scoping & estimation", "User stories", "Sprint planning", "Release planning", "Stakeholder communication", "ClickUp", "Trello", "Code review", "Team mentoring", "Subscription & licensing models", "Multi-currency pricing", "API versioning policy", "Technical documentation", "User documentation", "Production support"] },
         { n: "Mobile",              i: "phone", v: ["Flutter", "Dart", "BLoC", "Provider", "get_it", "Clean Architecture", "Drift", "sqflite", "go_router", "Android"] },
-        { n: "Integrations",        i: "plug", v: ["Stripe", "Razorpay", "MercadoPago", "Telr", "Odoo ERP sync", "Firebase FCM", "Google Drive API", "Telegram Bot API", "2GIS Maps", "PhpSpreadsheet"] },
+        { n: "Integrations",        i: "plug", v: ["Stripe", "Razorpay", "MercadoPago", "Telr", "Odoo ERP sync", "Firebase FCM", "WhatsApp Business API", "Mailgun", "OAuth2", "Google Drive API", "Telegram Bot API", "2GIS Maps", "Webhooks", "Postman", "PhpSpreadsheet"] },
         { n: "Embedded & hardware", i: "chip", v: ["Arduino", "ESP32", "C / C++", "RTC modules", "Relay control", "Sensors", "LCD / OLED", "ESC & brushless motors", "Wi-Fi / IoT", "Soldering"] },
         { n: "IT support",          i: "tool", v: ["PC & laptop diagnostics", "Component replacement", "Thermal maintenance", "OS installation", "Networking", "User support"] }
       ]
@@ -160,13 +161,14 @@ const CONTENT = {
       title: "المهارات",
       kicker: "الأدوات التي أعمل بها",
       groups: [
-        { n: "الخلفيات والمنصّات — Laravel",   i: "server", v: ["PHP 8.4", "Laravel 12", "REST API design", "Domain-Driven Design", "Modular monolith", "Service layer", "Policies & RBAC", "Sanctum / Passport", "Queues & jobs", "Octane & Horizon", "WebSockets", "RabbitMQ"] },
-        { n: "الواجهات — React و TypeScript", i: "code", v: ["TypeScript", "React 18/19", "Next.js 16", "TanStack Query", "Tailwind v4", "shadcn/ui", "next-intl · RTL", "Blade", "JavaScript", "HTML5", "CSS3"] },
+        { n: "الخلفيات والمنصّات — Laravel",   i: "server", v: ["PHP 8.4", "Laravel 12", "REST API design", "Domain-Driven Design", "Modular monolith", "Service layer", "Policies & RBAC", "Sanctum / Passport", "Livewire", "Filament", "Queues & jobs", "Octane & Horizon", "WebSockets", "RabbitMQ", "PHPUnit / Pest", "Telescope"] },
+        { n: "الواجهات — React و TypeScript", i: "code", v: ["TypeScript", "React 18/19", "Next.js 16", "TanStack Query", "Tailwind v4", "shadcn/ui", "next-intl · RTL", "Blade", "JavaScript", "HTML5", "CSS3", "npm / pnpm"] },
         { n: "Full-Stack JS — قيد التعلّم", i: "server", v: ["NestJS", "Node.js", "Modules و DI", "DTOs و Validation Pipes", "Guards و Interceptors", "TypeORM / Prisma", "Jest", "React + TypeScript (منجَز فعلياً)"] },
-        { n: "البيانات والبنية",     i: "db", v: ["MySQL", "SQLite", "Redis", "Elasticsearch", "Nginx", "Apache", "Linux", "PM2", "AWS S3", "Cloudinary", "Git", "CI · Larastan · Pint"] },
-        { n: "المنتج والتسليم",      i: "file", v: ["استخراج المتطلّبات", "تحديد النطاق والتقدير", "تخطيط الإصدارات", "التواصل مع أصحاب المصلحة", "نماذج الاشتراك والترخيص", "التسعير متعدّد العملات", "سياسة إصدارات API", "توثيق المستخدم", "دعم الإنتاج"] },
+        { n: "البيانات والتخزين",     i: "db", v: ["MySQL", "PostgreSQL", "SQLite", "Redis", "Elasticsearch", "AWS S3", "Cloudinary"] },
+        { n: "النشر والتشغيل", i: "server", v: ["Docker", "Docker Compose", "GitHub Actions", "CI · Larastan · Pint", "Nginx", "Apache", "Linux", "تجهيز الخوادم (VPS)", "Contabo", "Cloudflare", "Supervisor", "PM2", "المهام المجدولة", "مراقبة الخوادم", "النسخ الاحتياطي الآلي", "Git"] },
+        { n: "المنتج والتسليم",      i: "file", v: ["استخراج المتطلّبات", "تحديد النطاق والتقدير", "قصص المستخدم", "تخطيط السبرنت", "تخطيط الإصدارات", "التواصل مع أصحاب المصلحة", "ClickUp", "Trello", "مراجعة الكود", "إرشاد الفريق", "نماذج الاشتراك والترخيص", "التسعير متعدّد العملات", "سياسة إصدارات API", "التوثيق التقني", "توثيق المستخدم", "دعم الإنتاج"] },
         { n: "الموبايل",            i: "phone", v: ["Flutter", "Dart", "BLoC", "Provider", "get_it", "Clean Architecture", "Drift", "sqflite", "go_router", "Android"] },
-        { n: "التكاملات",           i: "plug", v: ["Stripe", "Razorpay", "MercadoPago", "Telr", "Odoo ERP sync", "Firebase FCM", "Google Drive API", "Telegram Bot API", "2GIS Maps", "PhpSpreadsheet"] },
+        { n: "التكاملات",           i: "plug", v: ["Stripe", "Razorpay", "MercadoPago", "Telr", "Odoo ERP sync", "Firebase FCM", "WhatsApp Business API", "Mailgun", "OAuth2", "Google Drive API", "Telegram Bot API", "2GIS Maps", "Webhooks", "Postman", "PhpSpreadsheet"] },
         { n: "الإلكترونيات المدمجة", i: "chip", v: ["Arduino", "ESP32", "C / C++", "RTC modules", "Relay control", "Sensors", "LCD / OLED", "ESC & brushless motors", "Wi-Fi / IoT", "لحام الدارات"] },
         { n: "الدعم الفني",         i: "tool", v: ["تشخيص وصيانة الحواسيب واللابتوبات", "استبدال القطع", "الصيانة الحرارية", "تنصيب أنظمة التشغيل", "الشبكات", "دعم المستخدمين"] }
       ]
